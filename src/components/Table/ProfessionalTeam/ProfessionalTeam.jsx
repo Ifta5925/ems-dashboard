@@ -16,13 +16,13 @@ const columns = [
         key: 'Description',
     },
     
-    {
-        title: 'Image',
-        key: 'Image',
-        dataIndex: 'Image',
+    // {
+    //     title: 'Image',
+    //     key: 'Image',
+    //     dataIndex: 'Image',
        
         
-    },
+    // },
     {
         title: 'Action',
         key: 'action',

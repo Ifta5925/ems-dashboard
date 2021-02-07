@@ -33,7 +33,7 @@ const Content = () => {
         Add
       </Button>
       <Modal
-        title="Slider Information adding field"
+        // title="Slider Information adding field"
         visible={isModalVisible}
         onOk={handleOk}
         onCancel={handleCancel}
@@ -50,13 +50,13 @@ const Content = () => {
           placeholder="Description"
           prefix={<UserOutlined />}
         />
-        <br />
+        {/* <br />
         <br />
         <Input
           size="large"
           placeholder="Image Source"
           prefix={<UserOutlined />}
-        />
+        /> */}
       </Modal>
       <ProfessionalTeam/>
 

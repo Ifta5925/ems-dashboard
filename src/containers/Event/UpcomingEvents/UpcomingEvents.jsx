@@ -27,7 +27,7 @@ const UpcomingEvent = () => {
         Add
       </Button>
       <Modal
-        title="Slider Information adding field"
+        // title="Slider Information adding field"
         visible={isModalVisible}
         onOk={handleOk}
         onCancel={handleCancel}
@@ -41,11 +41,16 @@ const UpcomingEvent = () => {
         <br />
         <Input
           size="large"
-          placeholder="Event title"
+          placeholder="Type"
           prefix={<UserOutlined />}
         />
         <br />
         <br />
+        <Input
+          size="large"
+          placeholder="Date"
+          prefix={<UserOutlined />}
+        />
         {/* <Input
           size="large"
           placeholder="Event Duration"
@@ -53,13 +58,7 @@ const UpcomingEvent = () => {
         />
         <br />
         <br /> */}
-        <Input
-          size="large"
-          placeholder="Date"
-          prefix={<UserOutlined />}
-        />
-        <br />
-        <br />
+       
         {/* <Input
           size="large"
           placeholder="Image Description"
@@ -67,11 +66,11 @@ const UpcomingEvent = () => {
         />
         <br />
         <br /> */}
-        <Input
+        {/* <Input
           size="large"
           placeholder="Image Source"
           prefix={<UserOutlined />}
-        />
+        /> */}
       </Modal>
       <UpcomingEventTable/>
 

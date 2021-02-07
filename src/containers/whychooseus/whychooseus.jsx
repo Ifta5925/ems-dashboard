@@ -47,16 +47,16 @@ const Content = () => {
         <br />
         <Input
           size="large"
-          placeholder="Description"
+          placeholder="Designation"
           prefix={<UserOutlined />}
         />
-        <br />
+        {/* <br />
         <br />
         <Input
           size="large"
           placeholder="Image Source"
           prefix={<UserOutlined />}
-        />
+        /> */}
       </Modal>
       <WhyChooseus/>
 

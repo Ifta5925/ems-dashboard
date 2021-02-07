@@ -6,7 +6,7 @@ import { Table, Tag, Space, Image} from 'antd';
 const columns = [
     
     {
-        title: 'package Name',
+        title: 'Package Name',
         dataIndex: 'packageName',
         key: 'packageName',
     },
@@ -62,7 +62,7 @@ const columns = [
         key: 'action',
         render: (text, record) => (
             <Space size="middle">
-                <a>Invite {record.name}</a>
+                {/* <a>Invite {record.name}</a> */}
                 <a>Delete</a>
             </Space>
         ),
