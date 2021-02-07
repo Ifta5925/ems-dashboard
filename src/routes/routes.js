@@ -159,12 +159,12 @@ const routes = [
     },
     {
 
-        name: "Gellary",
+        name: "Gallery",
         icon: <NotificationOutlined />,
         subRoutes: [
             {
                 path: "/Gellary",
-                name: "Gellary",
+                name: "Gallery",
                 icon: <GiftOutlined />,
                 component: Gellary,
 

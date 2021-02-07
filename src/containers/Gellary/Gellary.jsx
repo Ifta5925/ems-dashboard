@@ -27,10 +27,10 @@ const Gellary = () => {
   };
   return (
     <div>
-      <Title>Our Gellary table</Title>
+      <Title>Our Gallery</Title>
 
       <Button type="primary" onClick={showModal}>
-        Add  pictures to our Gellary
+        Add  pictures to our Gallery
       </Button>
       <Modal
         title="Slider Information adding field"
